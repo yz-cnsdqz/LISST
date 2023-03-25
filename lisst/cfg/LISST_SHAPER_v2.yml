@@ -1,0 +1,14 @@
+modelconfig:
+  name: LISST
+  add_nose: true
+  add_heels: true
+  
+lossconfig:
+  weight_rec: 1.0
+  
+trainconfig:
+  asf_path: /mnt/hdd/datasets/CMU/allasfamc/all_asfamc/subjects/01/01.asf
+  subjects_path: /mnt/hdd/datasets/CMU/allasfamc/all_asfamc/subjects
+  pca_algo: usv
+  
+

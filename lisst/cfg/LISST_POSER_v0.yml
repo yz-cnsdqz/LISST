@@ -1,0 +1,22 @@
+modelconfig:
+  mtype: MLP
+  body_repr: bone_transform
+  
+  h_dim: 64
+  z_dim: 16
+  num_blocks: 1
+  
+lossconfig:
+  weight_rec: 1.0
+  weight_kld: 1.0
+  annealing_kld: false
+  
+trainconfig:
+  cmu_canon_split: all
+  learning_rate: 0.0005
+  data_aug: canonical
+  batch_size: 32
+  num_epochs: 500
+  num_epochs_fix: 100
+  saving_per_X_ep: 50
+  
